@@ -12,25 +12,29 @@ always prepared for whatever the skies bring.
 ## Table of content
 
 
-1. [Introduction](#introduction)  
+- [Introduction](#introduction)  
 
-2. [Features](#features)  
+- [Features](#features)  
 
-3. [Installation](#installation)   
+- [Installation](#installation)   
 
-4. [Usage](#usage)  
+- [Usage](#usage)  
   
-5. [File Structure](#file-structure)  
+- [File Structure](#file-structure)  
 
-6. [API Information](#api-information)  
+- [API Information](#api-information)  
 
-7. [Dependencies](#dependencies)  
+- [Dependencies](#dependencies)
 
-8. [Contribution](#contribution)  
+- [Team Responsibilities](#team-responsibilities)
 
-9. [License](#license)
+- [Project Summary](#project-summary)
+
+- [Contribution](#contribution)  
+
+- [License](#license)
     
-10. [Acknowledgements](#acknowledgements)  
+- [Acknowledgements](#acknowledgements)  
 
 ---
 
@@ -173,8 +177,82 @@ pip install -r requirements.txt
 
 ---
 
+## Team Responsibilities
+Our weather application project is a collaborative effort where each team member plays a crucial role in developing specific components. The detailed responsibilities for each member are outlined below:
+
+### Ovi Shekh
+
+- **Main Functionality:**
+  - Oversees the overall program execution and flow of the application.
+  - Ensures seamless integration between various modules.
+- **API Module:**
+
+  - Manages API interactions to fetch real-time weather data.
+  - Implements and optimizes functions for connecting to OpenWeatherMap and handling responses efficiently.
+- **Weather Model (District-wise):** 
+
+  - Develops models to represent weather data for specific districts.
+  - Focuses on providing localized weather insights tailored to user needs.
+- **History Module:**
+
+  - Implements functionality to store and retrieve weather search history.
+  - Provides a user-friendly tabular view for past searches.
+- **Weather Movements:**
+  - Handles features related to weather phenomena such as rain and heatwaves.
+
+    
+### Apra Rani Das
+
+- **Weather Model:**
+
+  - **Country-wide:**
+    
+    - Develops models to represent weather data on a national scale.
+    - Analyzes and displays trends for broader geographic regions.
+  - **District-wise:**
+    
+    - Helpful tips to enhance user experience.
+    - Inspirational quotes to uplift the user’s day.
+- **Favorites Module:**
+
+  - Implements functionality allowing users to save and quickly access weather updates for favorite cities or locations.
+- **Resources Module:**
+
+  - Stores predefined data for cities, helpful tips, and quotes to enrich user engagement.
+- **Weather Movements:**
+
+  - Covers comprehensive weather phenomena, including:
+    
+    - Snowfall and heatwaves.
+    - Maximum and minimum temperatures.
+    - Stream data and timestamps for the current time in the searched city.
+- **Main Functionality:**
+
+  - Refines the program's overall flow and ensures integration after finalizing code modifications.
+  - Oversees smooth and effective coordination of all modules.
+
+    
+### Khalid Anwar
+
+- **Info Module:**
+
+  - Designs and implements the Info class for app and developer details.
+  - Manages the abstract AppInfo class and ensures its correct implementation.
+  - Displays detailed app information and developer credits.
+- **Project Report:**
+
+  - Prepares and compiles the final documentation for the project.
+  - Provides a comprehensive summary of application features, team contributions, and technical details.
+
+---
+
+## Project Summary
+This weather application provides real-time weather updates, historical data, and insights into various weather movements. It offers localized and country-wide reports and supports favorite locations for quick access. Developed collaboratively by Team Tengen, the project showcases robust modular design and innovative features.
+
+---
+
 ## Contribution
-I welcome contributions to improve the Weather App! To contribute:
+We welcome contributions to improve the Weather App! To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -189,6 +267,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## Acknowledgements
+
+Special thanks to our team members (**Team Tengen**) for their dedicated contributions:
+
+- **Ovi** for spearheading the core application functionality and district-wise insights.
+- **Apra** for national-scale weather models and resource management.
+- **Khalid** for enriching the app with detailed information and professional documentation.
 
 I would like to express my sincere gratitude to:
 
